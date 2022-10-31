@@ -2,8 +2,8 @@ pandas
 streamlit
 numpy
 pickle
-PIL
 matplotlib.pyplot
 seaborn
 plotly.express
 sklearn
+Pillow
