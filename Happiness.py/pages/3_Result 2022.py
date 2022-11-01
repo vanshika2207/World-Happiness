@@ -27,7 +27,7 @@ def add_bg_from_url():
 
 add_bg_from_url()
 st.title("Let's look at the dataset first")
-data2021=pd.read_csv('C:/Users/saxen/PycharmProjects/pythonProject/2021.csv')
+data2021=pd.read_csv('Happiness.py/2021.csv')
 st.write(data2021)
 fig = px.choropleth(data_frame=data2021,locations="Country name",locationmode="country names",color="Ladder score",title="Country wise happiness score")
 st.write(fig)
