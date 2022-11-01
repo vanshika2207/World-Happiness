@@ -46,7 +46,7 @@ st.markdown(
 
 
 import pickle
-pickle_in = open('C:/Users/saxen/PycharmProjects/pythonProject/regression.pkl', 'rb')
+pickle_in = open('Happiness.py/regression.pkl', 'rb')
 regression = pickle.load(pickle_in)
 # this is the main function in which we define our webpage
 def prediction(Economy, Family,Health, Freedom, Trust, Generosity, Dystopia_Residual):
