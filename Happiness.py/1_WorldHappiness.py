@@ -22,7 +22,7 @@ def add_bg_from_url():
 
 add_bg_from_url()
 from PIL import Image
-image = Image.open('C:/Users/saxen/PycharmProjects/pythonProject/wh.jpg')
+image = Image.open('Happiness.py/wh.jpg')
 st.image(image, caption='World Happiness')
 st.markdown(
         """
