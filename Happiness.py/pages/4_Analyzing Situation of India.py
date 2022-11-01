@@ -26,7 +26,7 @@ def add_bg_from_url():
      )
 
 add_bg_from_url()
-data2021=pd.read_csv('C:/Users/saxen/PycharmProjects/pythonProject/2021.csv')
+data2021=pd.read_csv('Happiness.py/2021.csv')
 st.markdown(
            """ 
            #### Now I am going to analyze the relationship between various parameters of world happiness report and India's rank and give some suggestion on how India can improve it's rank.
