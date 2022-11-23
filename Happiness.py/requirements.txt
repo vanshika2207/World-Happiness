@@ -6,3 +6,5 @@ seaborn
 plotly
 sklearn
 Pillow
+scikit-learn==1.1.2
+scipy==1.9.2
